@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/CARDS-FOR-LEARNING-FOREIGN-LANGUAGES-FRONTEND/sw.js', { scope: '/CARDS-FOR-LEARNING-FOREIGN-LANGUAGES-FRONTEND/' })})}
