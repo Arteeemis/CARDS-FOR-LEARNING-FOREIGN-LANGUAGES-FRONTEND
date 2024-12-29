@@ -13,4 +13,8 @@
 - **base-spa**: копия SSR версии приложения с моковыми данными
 - **gh-pages**: ветка для развертывания на github pages
 - **tauri**: ветка с десктопным приложением Tauri
+- **pwa_and_redux**: добавлена адаптивность, развертывание и менеджер состояний redux
+- **ui**: полный интерфейс пользователя
 
+## Ссылка на PWA приложение 
+https://arteeemis.github.io/CARDS-FOR-LEARNING-FOREIGN-LANGUAGES-FRONTEND/
