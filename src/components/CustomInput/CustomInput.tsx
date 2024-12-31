@@ -14,7 +14,7 @@ const CustomInput = ({label, placeholder, value, setValue, disabled, required=tr
                 onChange={(e) => setValue(e.target.value)}
                 invalid={error}
                 disabled={disabled}
-                required={required}
+                required={required} //проверка, что поля заполнены перед оформлением
                 valid={valid}
             />
         </FormGroup>

@@ -87,7 +87,7 @@ const CollectionPage = () => {
         <Form onSubmit={sendCollection} className="pb-5">
             <h2 className="mb-5">{isDraft ? "Черновой набор" : `Набор №${id}` }</h2>
             <Row className="mb-5 fs-5 w-25">
-                <CustomInput label="Название" placeholder="Введите название" value={name} setValue={setName} disabled={!isDraft}/>
+                <CustomInput label="Название" placeholder="Введите название" value={name} setValue={setName} disabled={!isDraft}/> //заполняемое поле заявки
                 {isCompleted && <CustomInput label="Время изучения (мин)" value={study_time} disabled={true}/>}
             </Row>
             <Row>
