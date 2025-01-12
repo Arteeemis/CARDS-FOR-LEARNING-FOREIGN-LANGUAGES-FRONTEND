@@ -31,15 +31,25 @@ const CollectionsTable = ({collections}:{collections:T_Collection[]}) => {
                 Cell: ({ value }) => STATUSES[value]
             },
             {
-                Header: 'Время изучения (мин)',    //добавил вычисляемое поле
+                Header: 'Время изучения (мин)',    
                 accessor: 'study_time',
                 Cell: ({ value }) => value
             },
             {
-                Header: 'Пользователь',             //добавил пользователя
+                Header: 'Пользователь',             
                 accessor: 'owner',
                 Cell: ({ value }) => value
-            }                                       //убрал даты создания и завершения
+            },
+            {
+                Header: 'Название',        //добавил название списка     
+                accessor: 'name',
+                Cell: ({ value }) => value
+            },                                      
+            {
+                Header: 'Дата формирования',      //добавил дату формирования     
+                accessor: 'date_formation',
+                Cell: ({ value }) => value
+            }      
         ],
         []
     )
